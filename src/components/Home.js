@@ -42,7 +42,7 @@ const Home = () => {
       animate="animate"
       exit="exit"
     >
-      <h2>Welcome to Pizza Joint</h2>
+      <h2>Welcome to Pizza & Toppings</h2>
       <Link to="/base">
         <motion.button variants={buttonVariants} whileHover="hover">
           Welcome to Pizza & Toppings
