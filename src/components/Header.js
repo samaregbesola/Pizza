@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import React from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const svgVariants = {
   initial: { rotate: -180 },
@@ -17,7 +17,7 @@ const pathVariants = {
     pathLength: 1,
     transition: {
       duration: 2,
-      ease: 'easeInOut',
+      ease: "easeInOut",
     },
   },
 };
@@ -58,10 +58,10 @@ const Header = () => {
         className="title"
         initial={{ y: -250 }}
         animate={{ y: -10 }}
-        transition={{ delay: 0.2, type: 'spring', stiffness: 120 }}
+        transition={{ delay: 0.2, type: "spring", stiffness: 120 }}
       >
         <Link to="/">
-          <h1>Pizza Joint</h1>
+          <h1>Pizza & Toppings</h1>
         </Link>
       </motion.div>
     </header>
